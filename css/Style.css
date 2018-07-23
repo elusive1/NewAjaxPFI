@@ -1,0 +1,42 @@
+/* CSS for Zeshaan Powerade */
+
+.button{
+background-color:#35cafc;
+border-style:solid;
+}
+.button p{
+color:#000000;
+text-align:center;
+font-weight: bold;
+font-family: arial;
+}
+.pfiheader img{
+   width: 100%;
+   height:auto; 
+}
+.powerade img{
+   width: 100%;
+   height:auto; 
+}
+.exit p{
+font-family: arial;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+}
+.footer{
+font-family: arial;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+}
+
+.exit button{
+float:right;
+font-weight: bold;
+background-color:#35cafc;
+}
+
+.border{
+background-color:#e0e0e0;
+}
