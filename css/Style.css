@@ -40,3 +40,9 @@ background-color:#35cafc;
 .border{
 background-color:#e0e0e0;
 }
+
+.t2bLogo image{
+   display: block;
+    margin-left: auto;
+    margin-right: auto
+}
