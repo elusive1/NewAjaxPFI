@@ -4,6 +4,15 @@
    background-color:#000000;
 }
 
+.sub2body p{
+   font-family: arial;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+text-align:center;
+color: white;
+}
+
 .button{
 background-color:#35cafc;
 border-style:solid;
@@ -22,7 +31,7 @@ font-family: arial;
    }
    
 .button2 p{
-   color:#ffff;
+   color:#000000;
    text-align:center;
    font-weight: bold;
    font-family: arial;
