@@ -1,0 +1,83 @@
+/* CSS for Zeshaan Powerade */
+
+/*.sub2body{
+   background-color:#000000;
+}*/
+
+.sub2body p{
+   font-family: arial;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+text-align:center;
+color:#000000;
+}
+
+.button{
+background-color:#35cafc;
+border-style:solid;
+}
+
+.button p{
+color:#000000;
+text-align:center;
+font-weight: bold;
+font-family: arial;
+}
+
+.button2{
+   background-color:#f1fc0f;
+   border-style:solid;
+   }
+   
+.button2 p{
+   color:#000000;
+   text-align:center;
+   font-weight: bold;
+   font-family: arial;
+   }
+
+.powerade img{
+   width: 100%;
+   height:auto; 
+}
+
+.footer{
+font-family: arial;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+text-align:center;
+}
+
+.border{
+background-color:#e0e0e0;
+}
+
+.t2bLogo image{
+   display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.maintext {
+   text-align:center;
+}
+
+.headertext{
+font-family: arial;
+font-weight: bold;
+text-align:center;
+}
+
+.h2text{
+   font-family: arial;
+   font-weight: bold;
+   text-align:center;
+}
+
+.h3text{
+   font-family: arial;
+   font-style: italic;
+   font-weight: bold;
+   text-align:center;  
+}
