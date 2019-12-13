@@ -1,8 +1,8 @@
 /* CSS for Zeshaan Powerade */
 
-.sub2body{
+/*.sub2body{
    background-color:#000000;
-}
+}*/
 
 .sub2body p{
    font-family: arial;
@@ -10,7 +10,7 @@ font-style: italic;
 font-weight: bold;
 font-size: 12px;
 text-align:center;
-color: white;
+color:#000000;
 }
 
 .button{
