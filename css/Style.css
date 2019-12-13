@@ -62,3 +62,22 @@ background-color:#e0e0e0;
 .maintext {
    text-align:center;
 }
+
+.headertext{
+font-family: arial;
+font-weight: bold;
+text-align:center;
+}
+
+.h2text{
+   font-family: arial;
+   font-weight: bold;
+   text-align:center;
+}
+
+.h3text{
+   font-family: arial;
+   font-style: italic;
+   font-weight: bold;
+   text-align:center;  
+}
