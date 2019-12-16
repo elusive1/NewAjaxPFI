@@ -40,9 +40,9 @@ font-family: arial;
 .button3 {
       background-color:#ddff99;
       border-style:solid;
-      min-width: 440px;
-      max-width: auto;
-}
+      min-width: auto;
+      max-width: 440px;
+   }
       
 .button3 p{
       color:#000000;
