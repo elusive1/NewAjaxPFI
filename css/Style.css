@@ -76,6 +76,13 @@ font-size: 12px;
 text-align:center;
 }
 
+.footer2{
+font-family: arial;
+font-style: italic;
+font-weight: bold;
+font-size: 12px;
+}
+
 .border{
 background-color:#e0e0e0;
 }
