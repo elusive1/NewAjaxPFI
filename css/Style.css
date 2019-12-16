@@ -42,6 +42,7 @@ font-family: arial;
       border-style:solid;
       min-width: auto;
       max-width: 440px;
+      margin: auto;
    }
       
 .button3 p{
