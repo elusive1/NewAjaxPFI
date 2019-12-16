@@ -57,9 +57,12 @@ font-family: arial;
 
 .powerade img{
    /*width: 100%;*/
-   min-width: auto;
-   max-width: 500px;
+   /*min-width: auto;
+   max-width: 500px;*/
    height:auto; 
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer{
