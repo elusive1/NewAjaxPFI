@@ -37,6 +37,18 @@ font-family: arial;
    font-family: arial;
    }
 
+.button3{
+      background-color:#35cafc;
+      border-style:solid;
+      }
+      
+.button3 p{
+      color:#000000;
+      text-align:center;
+      font-weight: bold;
+      font-family: arial;
+}
+
 .powerade img{
    width: 100%;
    height:auto; 
