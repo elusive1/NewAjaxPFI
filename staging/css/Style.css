@@ -43,6 +43,16 @@ margin: auto;
    font-family: arial;
    }
 
+   .powerade img{
+      /*width: 100%;*/
+      /*min-width: auto;
+      max-width: 500px;*/
+      height:auto; 
+      display: block;
+     margin-left: auto;
+     margin-right: auto;
+   }
+
 .powerade img{
    width: 100%;
    height:auto; 
@@ -67,16 +77,6 @@ background-color:#e0e0e0;
 }
 .maintext {
    text-align:center;
-}
-
-.powerade img{
-   /*width: 100%;*/
-   /*min-width: auto;
-   max-width: 500px;*/
-   height:auto; 
-   display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .headertext{
