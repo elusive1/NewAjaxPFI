@@ -43,7 +43,7 @@ margin: auto;
    font-family: arial;
    }
 
-   .powerade img{
+.powerade img{
       /*width: 100%;*/
       /*min-width: auto;
       max-width: 500px;*/
@@ -51,13 +51,7 @@ margin: auto;
       display: block;
      margin-left: auto;
      margin-right: auto;
-   }
-
-.powerade img{
-   width: 100%;
-   height:auto; 
 }
-
 .footer{
 font-family: arial;
 font-style: italic;
