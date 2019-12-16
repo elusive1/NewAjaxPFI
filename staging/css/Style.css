@@ -16,6 +16,9 @@ color:#000000;
 .button{
 background-color:#35cafc;
 border-style:solid;
+min-width: auto;
+max-width: 440px;
+margin: auto;
 }
 
 .button p{
@@ -28,6 +31,9 @@ font-family: arial;
 .button2{
    background-color:#f1fc0f;
    border-style:solid;
+   min-width: auto;
+max-width: 440px;
+margin: auto;
    }
    
 .button2 p{
@@ -61,6 +67,16 @@ background-color:#e0e0e0;
 }
 .maintext {
    text-align:center;
+}
+
+.powerade img{
+   /*width: 100%;*/
+   /*min-width: auto;
+   max-width: 500px;*/
+   height:auto; 
+   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .headertext{
