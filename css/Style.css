@@ -40,7 +40,7 @@ font-family: arial;
 .button3 {
       background-color:#ddff99;
       border-style:solid;
-      max-width: 50px;
+      max-width: auto;
 }
       
 .button3 p{
