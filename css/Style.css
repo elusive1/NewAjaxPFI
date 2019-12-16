@@ -31,6 +31,9 @@ font-family: arial;
 .button2{
    background-color:#f1fc0f;
    border-style:solid;
+   min-width: auto;
+max-width: 440px;
+margin: auto;
    }
    
 .button2 p{
