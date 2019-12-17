@@ -1,1 +1,1 @@
-{ "error":null, "showMarketingOptIn":false, "inProcessUrl":null, "script":"currentStatus(curStatus)" }
+{ "error":null, "showMarketingOptIn":false, "inProcessUrl":null, "script":"currentStatus('curStatus')" }
