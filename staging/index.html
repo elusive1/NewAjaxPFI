@@ -2,12 +2,19 @@
 <head>
 <meta http-equiv="X-UA-Compatible" content="ie=edge">
 <link rel="stylesheet" href="http://staging.psgdemo.com\NewAjaxPFI\staging\css\Style.css">
-  <meta charset="UTF-8">
+<meta charset="UTF-8">
+<script>
+function currentStatus(curStatus) {
+  if (curStatus == "Initiated") {
+    document.getElementById("maintext").innerHTML = "THE INPROC WORKS!!";
+		}
+}
+</script>
 </head>
 <body>
 <br>
 <img class="t2bLogo" src="http://staging.psgdemo.com\NewAjaxPFI\staging\images\t2b_logo.png">
-<h3 class="maintext">PFI Main staging testing site</h3>
+<h3 class="maintext" id="maintext">PFI Main staging testing site</h3>
 <br>
 <!-- Staging AJAX Powerade service below -->
 <div class ="footer">

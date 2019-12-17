@@ -1,1 +1,1 @@
-{ "error":null, "showMarketingOptIn":false, "inProcessUrl":null, "script":"currentStatus('pfitest')" }
+{ "error":null, "showMarketingOptIn":false, "inProcessUrl":null, "script":"currentStatus()" }
