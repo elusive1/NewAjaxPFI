@@ -53,12 +53,17 @@ var redirectURL = function(){
 //redirectURL();
 setInterval(redirectURL, 1000);
 
-var msisdnlog = function() { 
+/*var msisdnlog = function() { 
+  if ()
   console.log(document.getElementById('pfi-msisdn').value); 
-
 }
 
-setInterval(msisdnlog, 3000);
+setInterval(msisdnlog, 3000);*/
+
+document.getElementById('pfi-msisdn-button-mt').onclick = function() {
+  console.log(document.getElementById('pfi-msisdn').value); 
+  }
+  
 </script>
 </body>
 </html>
