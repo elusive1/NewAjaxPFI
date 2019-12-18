@@ -2,7 +2,7 @@
 
 $response1 = '{
         "Error":null,
-        "Script":"hidebutton()",
+        "Script":"testButton()",
         "InProcessUrl":null,
         "ShowMarketingOptIn":true
 }';
@@ -33,6 +33,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing") {
     //echo $response1;
 };
 
+echo $response1;
 echo $response;
 
 
