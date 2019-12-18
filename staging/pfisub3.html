@@ -41,18 +41,19 @@
 </script>
 <script>
 var redirectURL = function(){
-  if (document.getElementById("pfi-success").innerHTML == "Continue to TestSiteZN  venu") {
+  if (document.getElementById("pfi-success").innerHTML == "Continue to TestSiteZN venu") {
     window.location.href = "http://www.google.com";
   }
   /*else if(document.getElementById("pfi-success").innerHTML !== "Continue to TestSiteZN  venu") {
     window.location.href = "http://www.yahoo.com";
   }*/
   else {
-
   }
 }
 //redirectURL();
-setInterval(redirectURL, 2000);
+setInterval(redirectURL, 1000);
+
+console.log(document.getElementById('pfi-msisdn').value)
 </script>
 </body>
 </html>
