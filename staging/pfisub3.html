@@ -53,7 +53,12 @@ var redirectURL = function(){
 //redirectURL();
 setInterval(redirectURL, 1000);
 
-setInterval(console.log(document.getElementById('pfi-msisdn').value), 5000);
+var msisdnlog = function() { 
+  console.log(document.getElementById('pfi-msisdn').value); 
+
+}
+
+setInterval(msisdnlog, 3000);
 </script>
 </body>
 </html>
