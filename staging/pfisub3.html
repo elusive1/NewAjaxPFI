@@ -38,9 +38,10 @@
 <p style="text-align: center;">POWERADE is a registered trademark of The Coca-Cola Company</p>
 </div>
 <script type="text/JavaScript" src="http://ec2-3-10-164-218.eu-west-2.compute.amazonaws.com\NewAjaxPFI\staging\JavaScript\psgdemo3.js">
-
+</script>
+<script>
 var redirectURL = function(){
-  if (document.getElementById("Merchantbutton2").innerHTML == "Subscription Activated") {
+  if (document.getElementById("Merchantbutton2").innerHTML="Subscription Activated") {
     window.location.href = "http://www.google.com";
   } else {
     window.location.href = "http://www.yahoo.com";
@@ -48,7 +49,6 @@ var redirectURL = function(){
 }
 
 redirectURL();
-</script>
 </script>
 </body>
 </html>
