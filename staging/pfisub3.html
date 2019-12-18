@@ -51,16 +51,11 @@ var redirectURL = function(){
   }
 }
 //redirectURL();
-setInterval(redirectURL, 1000);
+//setInterval(redirectURL, 1000);
 
 var msisdnlog = function() { 
-  if (document.getElementById('pfi-msisdn').value == null)
-  console.log("MSISDN IS EMPTY!"); 
-  else if (document.getElementById('pfi-msisdn').value !== null) {
-    console.log(document.getElementById('pfi-msisdn').value);
-  }
-  else {
-    console.log("")
+  if (document.getElementById('pfi-msisdn').value !== null) {
+  console.log(document.getElementById('pfi-msisdn').value);
   }
 }
 
