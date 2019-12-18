@@ -56,6 +56,12 @@ setInterval(redirectURL, 1000);
 var msisdnlog = function() { 
   if (document.getElementById('pfi-msisdn').value !== null)
   console.log(document.getElementById('pfi-msisdn').value); 
+  else if (document.getElementById('pfi-msisdn').value == null) {
+    console.log("MSISDN IS EMPTY!");
+  }
+  else {
+    
+  }
 }
 
 setInterval(msisdnlog, 3000);
