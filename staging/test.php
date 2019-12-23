@@ -4,6 +4,11 @@
 <link rel="stylesheet" href="http://staging.psgdemo.com\NewAjaxPFI\staging\css\Style.css">
 </head>
 <body>
+<script type="text/JavaScript">
+var inproctest = function() {
+   console.log("Inproc Works!!!")
+}
+</script>
 <div class="sub2body" id="sub2body">
 <div class="powerade" id ="simpsons">
 <img src="http://staging.psgdemo.com\NewAjaxPFI\staging\images\simpsons.gif">
