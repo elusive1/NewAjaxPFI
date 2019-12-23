@@ -57,7 +57,7 @@
     echo print_r($_REQUEST);
 
    if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
-        echo "<script type=\"text/javascript\"> window.location.href = ""http://pfi.psgdemo.com/NewAjaxPFI/index.html";</script>";
+        echo "<script type=\"text/javascript\"> window.location.href = 'http://pfi.psgdemo.com/NewAjaxPFI/index.html';</script>";
    }
 ?>
 </div>
