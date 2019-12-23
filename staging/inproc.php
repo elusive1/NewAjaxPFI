@@ -4,7 +4,7 @@ $response1 = '{
         "error":null,
         "ShowMarketingOptIn":false,
         "inProcessUrl":null,
-        "script":"console.log("INPROCESS WORKING!")",
+        "script":"console.log('INPROCESS WORKING!')",
 }';
 
 
