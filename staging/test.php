@@ -1,12 +1,12 @@
 <html>
 <head>
 <meta http-equiv="X-UA-Compatible" charset="UTF-8" content="ie=edge">
-<link rel="stylesheet" href="http://ec2-3-10-164-218.eu-west-2.compute.amazonaws.com\NewAjaxPFI\css\Style.css">
+<link rel="stylesheet" href="http://staging.psgdemo.com\NewAjaxPFI\staging\css\Style.css">
 </head>
 <body>
 <div class="sub2body" id="sub2body">
 <div class="powerade" id ="simpsons">
-<img src="http://ec2-3-10-164-218.eu-west-2.compute.amazonaws.com\NewAjaxPFI\images\simpsons.gif">
+<img src="http://staging.psgdemo.com\NewAjaxPFI\staging\images\simpsons.gif">
 <br>
 <div class ="footer">
    <h1><p>BUY NOW FOR ETERNAL HAPPINESS!</p></h1>
@@ -17,7 +17,7 @@
 <!-- Old main image -->
 <!-- <img src="images\powerade.jpg"> -->
 <!--</div> -->
-<script type="text/JavaScript" src="http://ec2-3-10-164-218.eu-west-2.compute.amazonaws.com\NewAjaxPFI\JavaScript\psgdemo2.js"></script>
+<script type="text/JavaScript" src="http://staging.psgdemo.com\NewAjaxPFI\staging\JavaScript\psgdemo2.js"></script>
 <div class ="footer">
 <p>PSG TEST SITE</p>
 <?php
