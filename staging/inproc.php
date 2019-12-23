@@ -37,8 +37,8 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
     //echo $response1;
 };
 
-//echo $response1;
-echo $response;
+echo $response1;
+//echo $response;
 
 
 ?>
