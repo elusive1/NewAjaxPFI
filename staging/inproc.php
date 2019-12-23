@@ -1,5 +1,7 @@
 <?php
 
+header("X-PFI-SessionToken:" .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
+
 $response1 = '{
         "Error":null,
         "ShowMarketingOptIn":false,
@@ -40,7 +42,5 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
 echo $response1;
 echo "Your Session token is: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN'];
 //echo $response;
-
-header("X-PFI-SessionToken:" .$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 
 ?>
