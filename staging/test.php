@@ -46,7 +46,6 @@
     echo "Your transid is: ".$_SERVER['HTTP_X_PFI_TRANSACTIONID'];
     echo"<br>";
     echo"<br>";
-    echo"<br>";
     //echo print_r($_SERVER);
     //echo"<br>";
     //echo"<br>";
@@ -58,6 +57,12 @@
 
    if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
         echo "<script type=\"text/javascript\"> window.location.href = 'http://pfi.psgdemo.com/NewAjaxPFI/index.html';</script>";
+   }
+   elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
+    echo "<script type=\"text/javascript\"> console.log('Initiated Bill!');</script>";
+   }
+   else {
+    echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
    }
 ?>
 </div>
