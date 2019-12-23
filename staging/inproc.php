@@ -1,10 +1,10 @@
 <?php
 
 $response1 = '{
-        "error":null,
+        "Error":null,
         "ShowMarketingOptIn":false,
         "inProcessUrl":null,
-        "script":"inproctest()"
+        "Script":"inproctest()"
 }';
 
 
@@ -40,5 +40,6 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
 echo $response1;
 //echo $response;
 
+header("X-PFI-SessionToken: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 
 ?>
