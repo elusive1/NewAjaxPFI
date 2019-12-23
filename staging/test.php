@@ -1,5 +1,6 @@
 <?php
 header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
+header("X-PFI-SessionToken:".$_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 ?>
 <html>
 <head>
