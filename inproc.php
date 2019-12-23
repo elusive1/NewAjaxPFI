@@ -1,10 +1,10 @@
 <?php
 
 $response1 = '{
-        "Error":null,
-        "Script":"testButton()",
-        "InProcessUrl":null,
-        "ShowMarketingOptIn":true
+        "error":null,
+        "ShowMarketingOptIn":false,
+        "inProcessUrl":null,
+        "script":"console.log("INPROCESS WORKING!")",
 }';
 
 
