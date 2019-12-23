@@ -4,7 +4,7 @@ $response1 = '{
         "error":null,
         "ShowMarketingOptIn":false,
         "inProcessUrl":null,
-        "script":"inproctest()",
+        "script":"inproctest()"
 }';
 
 
