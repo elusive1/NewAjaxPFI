@@ -1,3 +1,6 @@
+<?php
+header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
+?>
 <html>
 <head>
 <meta http-equiv="X-UA-Compatible" charset="UTF-8" content="ie=edge">
