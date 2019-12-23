@@ -33,7 +33,7 @@
     echo"<br>";
     echo "Your Network is: ".$_SERVER['HTTP_X_PFI_NETINFO'];
     echo"<br>";
-    echo "Your referance is: ".$_SERVER['HTTP_X_PFI_REFERANCE'];
+    echo "Your reference is: ".$_SERVER['HTTP_X_PFI_REFERENCE'];
     echo"<br>";
     echo "Your Session token is: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN'];
     echo"<br>";
@@ -55,6 +55,10 @@
     echo"<br>";
     echo"Request";
     echo print_r($_REQUEST);
+
+   if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
+        echo "<script type=\"text/javascript\"> window.location.href = ""http://pfi.psgdemo.com/NewAjaxPFI/index.html";</script>";
+   }
 ?>
 </div>
 </div>
