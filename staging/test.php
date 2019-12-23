@@ -12,7 +12,7 @@ header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
    console.log("Inproc Works!!!")
 }*/
 <?php 
-echo "<script type=\"text/javascript\"> var inproctest = function() { console.log(".$_SERVER['HTTP_X_PFI_STATUS'],");}</script>";
+echo "<script type=\"text/javascript\"> var inproctest = function() { console.log(".json_encode($_SERVER['HTTP_X_PFI_STATUS']),");}</script>";
 ?>
 /*var inproctest = function() {
    var x =
