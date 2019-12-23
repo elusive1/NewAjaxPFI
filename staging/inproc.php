@@ -41,6 +41,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
 
 echo $response1;
 echo "Your Session token is: ".$_SERVER['HTTP_X_PFI_SESSIONTOKEN'];
+echo "Your Status is: ".$_SERVER['HTTP_X_PFI_STATUS'];
 //echo $response;
 
 ?>
