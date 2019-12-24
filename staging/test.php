@@ -70,6 +70,9 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo"Request";
     echo print_r($_REQUEST);
 
+    $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
+    echo print_r(get_headers($url));
+
    if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
         echo "<script type=\"text/javascript\">window.location.href = 'http://www.google.com';</script>";
    }
