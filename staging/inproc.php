@@ -36,23 +36,23 @@ $response1 = '{
 
 
 $temp1 = '{
-        "Error":null,
-        "Script":"hidebutton()",
-        "InProcessUrl":null,
-        "ShowMarketingOptIn":true
+    "Error":null,
+    "ShowMarketingOptIn":false,
+    "inProcessUrl":null,
+    "Script":"alreadySub()"
 }';
 
 //respond
 
-if ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
+if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
+    $response = $temp1;
+    //echo $response;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "initiated"){
+    $response = $response1;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadyssss"){
     $response = $response1;
     //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiProcessing"){
-    $response = $response1;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
-    $response = $response1;
-    //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmmmm"){
     $response = $response1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
@@ -60,11 +60,11 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
     //$var = '1';
 }else{
-    $response = $temp1;
+    $response = $response1;
     //echo $response1;
 };
 
-echo $response1;
-//echo $response;
+//echo $response1;
+echo $response;
 
 ?>
