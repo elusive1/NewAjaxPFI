@@ -60,7 +60,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
     //$var = '1';
 }else{
-    //$response = $response1;
+    $response = $response1;
     //echo $response1;
 };
 

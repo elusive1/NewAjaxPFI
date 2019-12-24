@@ -78,7 +78,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
         echo "<script type=\"text/javascript\">window.location.href = 'http://www.google.com';</script>";
    }
    elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
-    echo "<script type=\"text/javascript\"> console.log('Initiated Bill!');</script>";
+    echo "<script type=\"text/javascript\"> console.log('Initiated status!');</script>";
    }
    else {
     echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
