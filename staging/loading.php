@@ -7,9 +7,11 @@
 </head>
 <body>
 <br>
+<br>
+<br>
 <div class="powerade">
 <div id="powerade">
-<img src="http://staging.psgdemo.com\NewAjaxPFI\staging\images\loading1s.gif">
+<img src="http://staging.psgdemo.com\NewAjaxPFI\staging\images\loading1.gif">
 </div>
 <br>
 <br>
