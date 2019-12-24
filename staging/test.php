@@ -8,9 +8,9 @@ header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 </head>
 <body>
 <script type="text/JavaScript">
-/*var inproctest = function() {
-   console.log("Inproc Works!!!")
-}*/
+var alreadySub = function() {
+   window.location.href = "/NewAjaxPFI/staging/loading.php";
+}
 /*var inproctest = function() {
    var x =
    console.log(x);
