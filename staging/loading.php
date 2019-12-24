@@ -9,7 +9,7 @@
 <br>
 <div class="powerade">
 <div id="powerade">
-<img src="http://staging.psgdemo.com\NewAjaxPFI\staging\images\loading.gif">
+<img src="http://staging.psgdemo.com\NewAjaxPFI\staging\images\loading1s.gif">
 </div>
 <br>
 <br>
