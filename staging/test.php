@@ -5,6 +5,7 @@ header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 <head>
 <meta http-equiv="X-UA-Compatible" charset="UTF-8" content="ie=edge">
 <link rel="stylesheet" href="http://staging.psgdemo.com\NewAjaxPFI\staging\css\Style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
 <script type="text/JavaScript">
