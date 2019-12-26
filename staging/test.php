@@ -77,7 +77,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo print_r(get_headers($url));*/
 
     //trying out new PHP for inproc
-    print_r(apache_response_headers());
+    echo print_r(apache_response_headers());
     //
 
     if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
