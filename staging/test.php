@@ -74,7 +74,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
     echo print_r(get_headers($url));
 
-   if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
+    if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
         echo "<script type=\"text/javascript\">window.location.href = 'http://www.google.com';</script>";
    }
    elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
@@ -84,6 +84,15 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
    }
 ?>
+<script>
+   //JQUERY TEST
+   $.ajax({
+      url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
+    }).done(function (data, textStatus, xhr) { 
+      console.log(xhr.getResponseHeader('HTTP_X_PFI_STATUS')); 
+   });
+    //
+</script>
 </div>
 </div>
 </body>
