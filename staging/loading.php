@@ -1,13 +1,7 @@
 <?php
 header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 
-function get_contents() {
-   session_start();
-   $var_test = $_GET['hello']; 
-   echo $var_test;
-  }
-  
-  get_contents();
+echo $_GET['hello'];
 
 ?>
 <html>
