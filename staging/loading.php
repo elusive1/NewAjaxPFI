@@ -4,7 +4,9 @@ header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 //echo $_GET["test"];
 
 function replicate_sessiontoken() {
-    var_dump($http_response_header);
+    //var_dump($http_response_header);
+    //echo var_dump($http_response_header[5]['"']);
+    echo "<br>" . var_dump($http_response_header[5]);
     foreach($http_response_header as $key=> $value)
 {
   
