@@ -1,9 +1,8 @@
 <?php
 header("Connection: keep-alive");
-header("X-PFI-SessionToken: ". $_SERVER['HTTP_X_PFI_SESSIONTOKEN']);
 
 //test for sessionToken
-/*function getGUID(){
+function getGUID(){
     if (function_exists('com_create_guid')){
         return com_create_guid();
     }else{
@@ -26,7 +25,7 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
 }else{
     header("X-PFI-SessionToken: ".$GUID);
     $set = 'not set';
-}; */
+};
 
 
 $response1 = '{
