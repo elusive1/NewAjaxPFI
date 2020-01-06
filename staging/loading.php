@@ -3,20 +3,15 @@ header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 
 //echo $_GET["test"];
 
-function get_contents() {
+function replicate_sessiontoken() {
     file_get_contents("http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
-    //var_dump($http_response_header);
-    //echo var_dump($http_response_header[5]['"']);
-    //echo "<br>" . var_dump($http_response_header[5]);
     foreach($http_response_header as $key=> $value)
 {
-  
   if($key==5) header($value); //echo "<br>" . $value;
 }
   }
   
-  get_contents();
-
+  replicate_sessiontoken();
 ?>
 <html>
 <head>
