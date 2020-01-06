@@ -68,6 +68,6 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
 //echo $response1;
 echo $response;
 
-echo $_GET['HTTP_X_PFI_STATUS'];
+echo $_SERVER['HTTP_X_PFI_STATUS'];
 
 ?>
