@@ -7,12 +7,10 @@ function get_contents() {
     file_get_contents("http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
     //var_dump($http_response_header);
     echo var_dump($http_response_header[5]['"']);
-    echo var_dump($http_response_header[5]);
+    echo "<br>" . var_dump($http_response_header[5]);
     foreach($http_response_header as $key => $value)
 {
   echo "<br>" . $key." : ". $value;
-
-  echo "<br>" . $key[5]." : ". $value[5];
 }
   }
   
