@@ -1,6 +1,7 @@
 <?php
 header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 header("Access-Control-Allow-Origin: http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
+
 ?>
 <html>
 <head>
@@ -93,6 +94,12 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
       url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
     }).done(function (data, textStatus, xhr) { 
       console.log(xhr.getResponseHeader("HTTP_X_PFI_STATUS")); 
+   });
+
+   $.ajax({
+      url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
+    }).done(function (data, textStatus, xhr) { 
+      console.log(xhr.getResponseHeader("HTTP_X_PFI_SESSIONTOKEN")); 
    });
     //
 </script>
