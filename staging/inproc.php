@@ -52,7 +52,7 @@ $temp2 = '{
 
 //respond
 
-/*if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
+if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
     $response = $temp1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "initiated"){
@@ -71,11 +71,8 @@ $temp2 = '{
     $response = $temp2;
     //echo $response1;
 };
-*/
-//echo $response1;
-//echo $response;
 
-$headers = apache_request_headers();
-echo print_r($headers);
+//echo $response1;
+echo $response;
 
 ?>
