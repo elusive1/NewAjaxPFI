@@ -71,7 +71,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo print_r($http_response_header);
     echo"<br>";
     echo"Request ";
-    echo print_r($_REQUEST['HTTP_X_PFI_STATUS']);
+    echo print_r($_REQUEST[4]);
     echo"<br>";
     echo"<br>";
     $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
@@ -93,13 +93,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
    $.ajax({
       url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
     }).done(function (data, textStatus, xhr) { 
-      console.log(xhr.getResponseHeader("HTTP_X_PFI_STATUS")); 
-   });
-
-   $.ajax({
-      url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
-    }).done(function (data, textStatus, xhr) { 
-      console.log(xhr.getResponseHeader("HTTP_X_PFI_SESSIONTOKEN")); 
+      console.log(xhr.getResponseHeader("X_PFI_SessionToken")); 
    });
     //
 </script>
