@@ -1,4 +1,10 @@
 <?php
+function get_contents() {
+    file_get_contents("http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
+    var_dump($http_response_header);
+  }
+  get_contents();
+  var_dump($http_response_header);
 ?>
 <html>
 <head>
