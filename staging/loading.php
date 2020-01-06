@@ -8,7 +8,7 @@ function get_contents() {
     //var_dump($http_response_header);
     echo var_dump($http_response_header[5]['"']);
     echo var_dump($http_response_header[5]);
-    echo implode($http_response_header[5]);
+    echo "<br>" .implode($http_response_header[5]);
   }
   
   get_contents();
