@@ -88,7 +88,9 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
    }
 ?>
-<script>
+
+<!-- Removing the JQUERY TEST
+   <script>
    //JQUERY TEST
    $.ajax({
       url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
@@ -96,7 +98,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
       console.log(xhr.getResponseHeader('HTTP_X_PFI_STATUS')); 
    });
     //
-</script>
+</script>-->
 </div>
 </div>
 </body>
