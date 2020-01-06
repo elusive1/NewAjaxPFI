@@ -10,7 +10,7 @@ function get_contents() {
     echo "<br>" . var_dump($http_response_header[5]);
     foreach($http_response_header as $value)
 {
-  echo "<br>" . $value['5'];
+  echo "<br>" . $value["5"];
 }
   }
   
