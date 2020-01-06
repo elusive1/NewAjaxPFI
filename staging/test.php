@@ -75,7 +75,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo"<br>";
     echo"<br>";
     $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
-    echo print_r(get_headers($url), true);
+    echo print_r($_GET[$url], true);
    
 
     if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
@@ -87,13 +87,15 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
    else {
     echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
    }
+
+   echo $_GET['HTTP_X_PFI_STATUS'];
 ?>
 <script>
    //JQUERY TEST
    $.ajax({
       url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
     }).done(function (data, textStatus, xhr) { 
-      console.log(xhr.getResponseHeader("X_PFI_SessionToken")); 
+      console.log($_GET("X_PFI_SessionToken")); 
    });
     //
 </script>
