@@ -8,9 +8,10 @@ function get_contents() {
     //var_dump($http_response_header);
     echo var_dump($http_response_header[5]['"']);
     echo "<br>" . var_dump($http_response_header[5]);
-    foreach($http_response_header as $value)
+    foreach($http_response_header as $key=> $value)
 {
-  echo "<br>" . $value["5"];
+  
+  if($key==5)  echo "<br>" . $value;
 }
   }
   
