@@ -1,4 +1,5 @@
 <?php
+header("Connection: keep-alive");
 
 //test for sessionToken
 function getGUID(){
