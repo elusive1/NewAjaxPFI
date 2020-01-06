@@ -88,8 +88,6 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
    }
 
-   $headers = apache_request_headers();
-echo $headers['HTTP_X_PFI_STATUS'];
 ?>
 
 <!-- Removing the JQUERY TEST
