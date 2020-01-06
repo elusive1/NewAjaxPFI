@@ -11,6 +11,8 @@ function get_contents() {
     foreach($http_response_header as $key => $value)
 {
   echo "<br>" . $key." : ". $value;
+
+  echo "<br>" . $key[5]." : ". $value;
 }
   }
   
