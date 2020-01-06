@@ -1,7 +1,7 @@
 <?php
 header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 
-echo $_GET['hello'];
+echo 'Hello ' . htmlspecialchars($_GET["name"]) . '!';
 
 ?>
 <html>
