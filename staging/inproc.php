@@ -43,6 +43,13 @@ $temp1 = '{
     "Script":"alreadySub()"
 }';
 
+$temp2 = '{
+    "Error":null,
+    "ShowMarketingOptIn":false,
+    "inProcessUrl":null,
+    "Script":"Nothing()"
+}';
+
 //respond
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
@@ -61,13 +68,11 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
     //$var = '1';
 }else{
-    $response = $response1;
+    $response = $temp2;
     //echo $response1;
 };
 
 //echo $response1;
 echo $response;
-
-echo $_SERVER['HTTP_X_PFI_STATUS'];
 
 ?>

@@ -93,7 +93,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
    $.ajax({
       url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
     }).done(function (data, textStatus, xhr) { 
-      console.log(xhr.getResponseHeader("X_PFI_SessionToken")); 
+      console.log(xhr.getResponseHeader('HTTP_X_PFI_STATUS')); 
    });
     //
 </script>
