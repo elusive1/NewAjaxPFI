@@ -11,7 +11,9 @@ function get_contents() {
     foreach($http_response_header as $key=> $value)
 {
   
-  if($key==5)  header("X-PFI-SessionToken: " .$value); //echo "<br>" . $value;
+  if($key==5) { 
+      header("X-PFI-SessionToken: " .$value); //echo "<br>" . $value;
+  }
 }
   }
   
