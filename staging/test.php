@@ -96,8 +96,6 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
       console.log(xhr.getResponseHeader("X_PFI_SessionToken")); 
    });
     //
-
-    window.location.search += "&my_param=foobar";
 </script>
 </div>
 </div>
