@@ -76,6 +76,6 @@ $temp2 = '{
 //echo $response;
 
 $headers = apache_request_headers();
-echo print_r($headers['HTTP_X_PFI_STATUS']);
+echo print_r($headers);
 
 ?>
