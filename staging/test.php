@@ -86,6 +86,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo"<br>";
     $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
     echo print_r(get_headers($url), true);
+    echo $url. $_GET['HTTP_X_PFI_STATUS'];
    
 
     if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
@@ -99,6 +100,10 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
    }
 
 ?>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+$("#footer").load(location.href + " #footer");
+</script>
 
 <!-- Removing the JQUERY TEST
    <script>
