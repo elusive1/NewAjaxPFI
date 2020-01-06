@@ -4,7 +4,7 @@ function get_contents() {
     var_dump($http_response_header);
   }
   get_contents();
-  print_r($http_response_header);
+  echo print_r($http_response_header);
 ?>
 <html>
 <head>
