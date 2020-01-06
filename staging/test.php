@@ -67,11 +67,11 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     //echo print_r($_SERVER);
     //echo"<br>";
     //echo"<br>";
-    echo"response header";
+    echo"response header ";
     echo print_r($http_response_header);
     echo"<br>";
-    echo"Request";
-    echo print_r($_REQUEST);
+    echo"Request ";
+    echo print_r($_REQUEST['HTTP_X_PFI_STATUS']);
     echo"<br>";
     echo"<br>";
     $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
