@@ -73,6 +73,9 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
 };
 
 //echo $response1;
-echo $response;
+//echo $response;
+
+$headers = apache_request_headers();
+echo $headers['HTTP_X_PFI_STATUS'];
 
 ?>
