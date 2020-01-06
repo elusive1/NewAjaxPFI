@@ -12,7 +12,7 @@ function get_contents() {
 {
   echo "<br>" . $key." : ". $value;
 
-  echo "<br>" . $key[5]." : ". $value;
+  echo "<br>" . $key[5]." : ". $value[5];
 }
   }
   
