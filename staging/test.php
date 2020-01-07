@@ -62,7 +62,7 @@ echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('
 var hidebutton = "hidebutton";
 var serviceId = "1575";
 var reference = "powerade";
-var contentUrl = "/NewAjaxPFI/staging/loading.php?a=<?php echo $_SERVER['HTTP_X_PFI_ALIAS']?>&status=<?php echo $_SERVER['HTTP_X_PFI_STATUS']?>&sessionToken=<?php echo $_SERVER['HTTP_X_PFI_SESSIONTOKEN']?>&t=<?php echo $_SERVER['HTTP_X_PFI_TRANSACTIONID']?>";
+var contentUrl = "\NewAjaxPFI\staging\loading.php?a=<?php echo $_SERVER['HTTP_X_PFI_ALIAS']?>&status=<?php echo $_SERVER['HTTP_X_PFI_STATUS']?>&sessionToken=<?php echo $_SERVER['HTTP_X_PFI_SESSIONTOKEN']?>&t=<?php echo $_SERVER['HTTP_X_PFI_TRANSACTIONID']?>";
 var contentId = "sub2";
 
 document.getElementById('Merchantbutton2').onload = merchantCall(hidebutton, serviceId, reference, contentUrl, contentId);
