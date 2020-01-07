@@ -51,20 +51,20 @@ $temp2 = '{
 
 //respond
 
-if ($_GET['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
+if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
     $response = $temp1;
     //echo $response;
-}elseif ($_GET['HTTP_X_PFI_STATUS'] == "initiated"){
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "initiated"){
     $response = $response1;
-}elseif ($_GET['HTTP_X_PFI_STATUS'] == "PfiAlreadyssss"){
-    $response = $response1;
-    //echo $response;
-}elseif ($_GET['HTTP_X_PFI_STATUS'] == "PfiConfirmmmm"){
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadyssss"){
     $response = $response1;
     //echo $response;
-}elseif ($_GET['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmmmm"){
+    $response = $response1;
+    //echo $response;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
     //$var = '1';
-}elseif ($_GET['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
     //$var = '1';
 }else{
     $response = $temp2;
