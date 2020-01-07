@@ -42,6 +42,7 @@ var alreadySub = function() {
 </script>
 <?php 
 echo "<script type=\"text/javascript\"> var inproctest = function() { console.log(".json_encode($_SERVER['HTTP_X_PFI_STATUS']),")}</script>";
+echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('The Inproc X-PFI-STATUS hasn't updated properly')}</script>";
 ?>
 <div class="sub2body" id="sub2body">
 <div class="powerade" id ="simpsons">
@@ -63,12 +64,12 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
    echo "<script type=\"text/javascript\">window.location.href = 'http://www.google.com';</script>";
-}
+   }
 elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "Initiated") {
-echo "<script type=\"text/javascript\"> console.log('Initiated status!');</script>";
-}
+   echo "<script type=\"text/javascript\"> console.log('Initiated status!');</script>";
+   }
 else {
-echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
+   echo "<script type=\"text/javascript\"> console.log('Nothing!');</script>";
 }
 
     echo"<br>";
