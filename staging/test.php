@@ -57,7 +57,16 @@ echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('
 <!-- Old main image -->
 <!-- <img src="images\powerade.jpg"> -->
 <!--</div> -->
-<script type="text/JavaScript" src="http://staging.psgdemo.com\NewAjaxPFI\staging\JavaScript\psgdemo2.js"></script>
+<!-- <script type="text/JavaScript" src="http://staging.psgdemo.com\NewAjaxPFI\staging\JavaScript\psgdemo2.js"></script> -->
+<script type="text/JavaScript">
+var hidebutton = "hidebutton";
+var serviceId = "1575";
+var reference = "powerade";
+var contentUrl = "\NewAjaxPFI\staging\loading.php?a=<?php echo $_SERVER['HTTP_X_PFI_ALIAS']?>status=<?php echo $_SERVER['HTTP_X_PFI_STATUS']?>sessionToken=<?php echo $_SERVER['HTTP_X_PFI_SESSIONTOKEN']?>t=<?php echo $_SERVER['HTTP_X_PFI_TRANSACTIONID']?>";
+var contentId = "sub2";
+
+document.getElementById('Merchantbutton2').onload = merchantCall(hidebutton, serviceId, reference, contentUrl, contentId);
+</script>
 <div class ="footer">
 <p>PSG TEST SITE</p>
 <?php
@@ -114,10 +123,6 @@ else {
     echo print_r($_SERVER);
     echo getallheaders();
 ?>
-
-<script>
-$("#footer").load(location.href + " #footer");
-</script>
 
 <!-- Removing the JQUERY TEST
    <script>
