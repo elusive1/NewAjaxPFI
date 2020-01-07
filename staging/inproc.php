@@ -66,8 +66,8 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
     $response = $temp3;
     //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmmmm"){
-    $response = $response1;
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPreviousPurchase"){
+    $response = $temp1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
     //$var = '1';
