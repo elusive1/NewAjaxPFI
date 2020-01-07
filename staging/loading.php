@@ -18,7 +18,16 @@ function replicate_sessiontoken() {
 </head>
 <body>
 <br>
-<br>
+<?php
+echo "<br>";
+echo "Your Alias is: " . $_GET['a'];
+echo "<br>";
+echo "Your Status is: " . $_GET['status'];
+echo "<br>";
+echo "Your Session Token is: " . $_GET['sessionToken'];
+echo "<br>";
+echo "Your Transaction ID is: " . $_GET['t'];
+?>
 <br>
 <div class="powerade">
 <div id="powerade">
