@@ -2,9 +2,20 @@
 header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 header("Access-Control-Allow-Origin: http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 
-function replicate_sessiontoken() {
+/*function replicate_sessiontoken() {
    file_get_contents("http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
    foreach($http_response_header as $key=> $value)
+{
+ if($key==6) header($value); //echo "<br>" . $value;
+}
+ }
+ 
+ replicate_sessiontoken();*/
+
+ function replicate_sessiontoken() {
+   $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
+   $inproc_headers = get_headers($url);
+   foreach($inproc_headers as $key=> $value)
 {
  if($key==6) header($value); //echo "<br>" . $value;
 }
