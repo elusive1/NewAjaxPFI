@@ -53,7 +53,7 @@ echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('
 </div>
 </div>
 <div data-pfi-area="true" class="button2" id="Merchantbutton2"></div>
-<!--<div class="powerade"> -->
+<!--<div class="powerade"> --> 
 <!-- Old main image -->
 <!-- <img src="images\powerade.jpg"> -->
 <!--</div> -->
