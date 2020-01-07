@@ -78,14 +78,17 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     //echo"<br>";
     //echo"<br>";
     echo"response header ";
-    echo print_r($http_response_header, true);
+    echo print_r($http_response_header);
     echo"<br>";
     echo"Request ";
     echo print_r($_REQUEST['HTTP_X_PFI_STATUS'], true);
     echo"<br>";
     echo"<br>";
     $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
-    echo print_r(get_headers($url), true);   
+    echo print_r(get_headers($url), true); 
+    echo "<br>";
+    echo print_r($_SERVER);
+    echo getallheaders();
 
     if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed"){
         echo "<script type=\"text/javascript\">window.location.href = 'http://www.google.com';</script>";
