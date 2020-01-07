@@ -49,6 +49,13 @@ $temp2 = '{
     "Script":"Nothing()"
 }';
 
+$temp3 = '{
+    "Error":null,
+    "ShowMarketingOptIn":false,
+    "inProcessUrl":null,
+    "Script":"Test()"
+}';
+
 //respond
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
@@ -56,7 +63,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "initiated"){
     $response = $response1;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadyssss"){
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
     $response = $response1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmmmm"){
