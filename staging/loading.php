@@ -19,6 +19,7 @@ function replicate_sessiontoken() {
 <body>
 <br>
 <?php
+session_start();
 echo "<br>";
 echo "Your Alias is: " . $_GET['a'];
 echo "<br>";

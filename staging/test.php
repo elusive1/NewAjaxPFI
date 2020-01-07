@@ -39,6 +39,9 @@ var alreadySub = function() {
    var x =
    console.log(x);
 }*/
+var MsisdnConfirmed = function() {
+   console.log('PfiConfirmButtonShown');
+}
 </script>
 <?php 
 echo "<script type=\"text/javascript\"> var inproctest = function() { console.log(".json_encode($_SERVER['HTTP_X_PFI_STATUS']),")}</script>";

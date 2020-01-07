@@ -53,7 +53,7 @@ $temp3 = '{
     "Error":null,
     "ShowMarketingOptIn":false,
     "inProcessUrl":null,
-    "Script":"Test()"
+    "Script":"MsisdnConfirmed()"
 }';
 
 //respond
@@ -64,7 +64,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "initiated"){
     $response = $response1;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmButtonShown"){
-    $response = $response1;
+    $response = $temp3;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiConfirmmmm"){
     $response = $response1;
