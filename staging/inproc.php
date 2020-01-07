@@ -1,5 +1,6 @@
 <?php
 header("Connection: keep-alive");
+header("X-PFI-Status: ". $_SERVER['HTTP_X_PFI_STATUS']);
 
 //test for sessionToken
 function getGUID(){
@@ -27,14 +28,12 @@ if (isset($_SERVER['HTTP_X_PFI_SESSIONTOKEN'])) {
     $set = 'not set';
 };
 
-
 $response1 = '{
         "Error":null,
         "ShowMarketingOptIn":false,
         "inProcessUrl":null,
         "Script":"inproctest()"
 }';
-
 
 $temp1 = '{
     "Error":null,
