@@ -1,5 +1,5 @@
 <?php
-header("X-PFI-InProcessUrl: pfistaging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
+header("X-PFI-InProcessUrl: staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 header("Access-Control-Allow-Origin: http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php");
 
 function replicate_sessiontoken() {
