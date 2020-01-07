@@ -42,7 +42,7 @@ var alreadySub = function() {
 </script>
 <?php 
 echo "<script type=\"text/javascript\"> var inproctest = function() { console.log(".json_encode($_SERVER['HTTP_X_PFI_STATUS']),")}</script>";
-echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('The Inproc X-PFI-STATUS hasn't updated properly')}</script>";
+echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('The Inproc X-PFI-STATUS has not updated properly')}</script>";
 ?>
 <div class="sub2body" id="sub2body">
 <div class="powerade" id ="simpsons">
@@ -62,7 +62,7 @@ echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('
 var hidebutton = "hidebutton";
 var serviceId = "1575";
 var reference = "powerade";
-var contentUrl = "\NewAjaxPFI\staging\loading.php?a=<?php echo $_SERVER['HTTP_X_PFI_ALIAS']?>status=<?php echo $_SERVER['HTTP_X_PFI_STATUS']?>sessionToken=<?php echo $_SERVER['HTTP_X_PFI_SESSIONTOKEN']?>t=<?php echo $_SERVER['HTTP_X_PFI_TRANSACTIONID']?>";
+var contentUrl = "\NewAjaxPFI\staging\loading.php?a=<?php echo $_SERVER['HTTP_X_PFI_ALIAS']?>&status=<?php echo $_SERVER['HTTP_X_PFI_STATUS']?>&sessionToken=<?php echo $_SERVER['HTTP_X_PFI_SESSIONTOKEN']?>&t=<?php echo $_SERVER['HTTP_X_PFI_TRANSACTIONID']?>";
 var contentId = "sub2";
 
 document.getElementById('Merchantbutton2').onload = merchantCall(hidebutton, serviceId, reference, contentUrl, contentId);
