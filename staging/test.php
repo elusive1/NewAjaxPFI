@@ -85,7 +85,7 @@ echo "<script type=\"text/javascript\"> var inproctest = function() { console.lo
     echo"<br>";
     echo"<br>";
     $url = 'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php';
-    echo print_r($_SERVER($url), true); //get_headers
+    echo print_r(get_headers($url), true);
     echo "<br>";
     echo "<br>";
     echo print_r($_SERVER);
