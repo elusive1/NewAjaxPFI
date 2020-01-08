@@ -56,6 +56,13 @@ $temp3 = '{
     "Script":"MsisdnConfirmed()"
 }';
 
+$temp4 = '{
+    "Error":null,
+    "ShowMarketingOptIn":false,
+    "inProcessUrl":null,
+    "Script":"MsisdnConfirmed()"
+}';
+
 //respond
 
 if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
@@ -69,9 +76,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPreviousPurchase"){
     $response = $temp1;
     //echo $response;
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessz"){
-    //$var = '1';
-}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseSuccessa"){
+}elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseButtonShown"){
     //$var = '1';
 }else{
     $response = $temp2;
