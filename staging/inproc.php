@@ -46,7 +46,7 @@ $temp2 = '{
     "Error":null,
     "ShowMarketingOptIn":false,
     "inProcessUrl":null,
-    "Script":"Nothing()"
+    "Script":"PfiInprocTest()"
 }';
 
 $temp3 = '{

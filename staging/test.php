@@ -49,7 +49,7 @@ let PurchaseButtonShown = function() {
 </script>
 <?php 
 echo "<script type=\"text/javascript\"> var inproctest = function() { console.log(".json_encode($_SERVER['HTTP_X_PFI_STATUS']),")}</script>";
-echo "<script type=\"text/javascript\"> var Nothing = function() { console.log('The Inproc X-PFI-STATUS has not updated properly')}</script>";
+echo "<script type=\"text/javascript\"> var PfiInprocTest = function() { console.log('Pfi Inproc Test')}</script>";
 ?>
 <div class="sub2body" id="sub2body">
 <div class="powerade" id ="simpsons">
