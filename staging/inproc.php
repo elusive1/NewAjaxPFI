@@ -60,7 +60,7 @@ $temp4 = '{
     "Error":null,
     "ShowMarketingOptIn":false,
     "inProcessUrl":null,
-    "Script":"MsisdnConfirmed()"
+    "Script":"PurchaseButtonShown()"
 }';
 
 //respond
@@ -77,7 +77,7 @@ if ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiAlreadySubscribed") {
     $response = $temp1;
     //echo $response;
 }elseif ($_SERVER['HTTP_X_PFI_STATUS'] == "PfiPurchaseButtonShown"){
-    //$var = '1';
+    $response = $temp4;
 }else{
     $response = $temp2;
     //echo $response1;
