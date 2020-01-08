@@ -131,16 +131,21 @@ else {
     echo print_r($_SERVER);
     echo getallheaders();
 ?>
-
 <!--Removing the JQUERY TEST-->
    <script>
    //JQUERY TEST
    $.ajax({
       url:'http://pfistaging.psgdemo.com/pfiAjax/GenerateCaptcha'
-    }).done(function (data, textStatus, xhr) { 
+    }).done(function () { 
       console.log('PfiCaptchaShown'); 
    });
-    //
+
+var origCheckNetworkLookupMt = checkNetworkLookupMt;
+checkNetworkLookupMt = function()
+{
+  console.log('checkNetworkLookupMt performed!')
+  origCheckNetworkLookupMt()
+}
 </script>
 </div>
 </div>
