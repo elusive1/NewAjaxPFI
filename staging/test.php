@@ -144,8 +144,8 @@ else {
 var origCheckNetworkLookupMt = checkNetworkLookupMt;
 checkNetworkLookupMt = function()
 {
-  origCheckNetworkLookupMt()
-  console.log('checkNetworkLookupMt performed!')
+  origCheckNetworkLookupMt() 
+  console.log('checkNetworkLookupMt performed!!')
 }
 </script>
 </script>
