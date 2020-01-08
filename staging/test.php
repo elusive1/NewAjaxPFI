@@ -132,16 +132,16 @@ else {
     echo getallheaders();
 ?>
 
-<!-- Removing the JQUERY TEST
+<!--Removing the JQUERY TEST-->
    <script>
    //JQUERY TEST
    $.ajax({
-      url:'http://staging.psgdemo.com/NewAjaxPFI/staging/inproc.php'
+      url:'http://pfistaging.psgdemo.com/pfiAjax/GenerateCaptcha'
     }).done(function (data, textStatus, xhr) { 
-      console.log(xhr.getResponseHeader('HTTP_X_PFI_STATUS')); 
+      console.log('PfiCaptchaShown'); 
    });
     //
-</script>-->
+</script>
 </div>
 </div>
 </body>
