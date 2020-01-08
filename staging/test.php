@@ -139,13 +139,15 @@ else {
     }).done(function () { 
       console.log('PfiCaptchaShown'); 
    });
-
+</script>
+<script type="text/JavaScript">
 var origCheckNetworkLookupMt = checkNetworkLookupMt;
 checkNetworkLookupMt = function()
 {
-  console.log('checkNetworkLookupMt performed!')
   origCheckNetworkLookupMt()
+  console.log('checkNetworkLookupMt performed!')
 }
+</script>
 </script>
 </div>
 </div>
