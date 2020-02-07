@@ -124,5 +124,5 @@
     margin-right: auto;/*centres in compliant browsers*/
     margin-left: auto;/* "	" */
     width: 755px;
-    text-align: left;
+    --text-align: left;
 }
