@@ -132,22 +132,30 @@ else {
     echo getallheaders();
 ?>
 <!--Removing the JQUERY TEST-->
-   <script>
+<script>
    //JQUERY TEST
-   $.ajax({
+   /*$.ajax({
       url:'http://pfistaging.psgdemo.com/pfiAjax/GenerateCaptcha'
     }).done(function () { 
       console.log('PfiCaptchaShown'); 
-   });
+   });*/
+
+   var pin = JQ('#pfi-pin').val();
+   
+   console.log(pin);
+
+   var submitPinTest = pfiPinSubmit;
+   
+
 </script>
-<script type="text/JavaScript">
+<!-- <script type="text/JavaScript">
 var origCheckNetworkLookupMt = checkNetworkLookupMt;
 checkNetworkLookupMt = function()
 {
-  origCheckNetworkLookupMt() 
   console.log('checkNetworkLookupMt performed!!')
-}
-</script>
+  origCheckNetworkLookupMt() 
+  }
+</script>-->
 </script>
 </div>
 </div>
