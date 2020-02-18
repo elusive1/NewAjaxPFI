@@ -268,8 +268,8 @@ html[xmlns] .flexslider .slides {
     opacity: 1;
     left: 10px;
   }
-  .flex-direction-nav .flex-next {
+  /*.flex-direction-nav .flex-next {
     opacity: 1;
     right: 10px;
-  }
+  }*/
 }
