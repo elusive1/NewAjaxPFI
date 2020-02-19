@@ -1,7 +1,7 @@
 // progressbar.js@1.0.0 version is used
 // Docs: http://progressbarjs.readthedocs.org/en/1.0.0/
 
-var bar = new ProgressBar.SemiCircle(container, {
+var bar = new ProgressBar.SemiCircle(chartzn, {
   strokeWidth: 6,
   color: '#FFEA82',
   trailColor: '#eee',
