@@ -2063,7 +2063,7 @@ form label {
 
 /*********** Bar Chart **************/
 .wrapper {
-	position: absolute;
+	position: relative;
 	width: auto;
 	height: auto;
 	margin: auto;
