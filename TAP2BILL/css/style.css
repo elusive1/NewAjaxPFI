@@ -2064,8 +2064,8 @@ form label {
 /*********** Bar Chart **************/
 .wrapper {
 	position: absolute;
-	width: 400px;
-	height: 400px;
+	width: auto;
+	height: auto;
 	margin: auto;
 	top: 0;
 	bottom: 0;
