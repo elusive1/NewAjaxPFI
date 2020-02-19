@@ -2062,22 +2062,10 @@ form label {
 /*# sourceMappingURL=style.css.map */
 
 /*********** Bar Chart **************/
-.wrapper {
-	position: relative;
-	width: auto;
-	height: auto;
-	margin: auto;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	display: flex;
-	flex-direction: row;
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 100px;
 }
-
-/*.container {
-	flex: 1;
-	padding: 0 20px;
-}*/
 
 
