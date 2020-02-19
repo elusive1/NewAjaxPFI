@@ -2080,3 +2080,8 @@ form label {
 	padding: 0 20px;
 }
 
+.container2 {
+	flex: 1;
+	padding: 0 20px;
+}
+
