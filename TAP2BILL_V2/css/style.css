@@ -1572,8 +1572,8 @@ h1, h2, h3, h4, h5, h6, figure {
   border: 2px solid #D7DB2D;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #f96c2f !important;
-  border-color: #f96c2f !important;
+  background: #D7DB2D !important;
+  border-color: #D7DB2D !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
