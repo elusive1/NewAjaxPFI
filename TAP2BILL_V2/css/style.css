@@ -845,7 +845,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .price-box .classes li {
   display: block;
-  color: #FFFFFF;
+  color: rgb(184, 184, 184);
   width: 100%;
   list-style: none;
   margin: 0;
