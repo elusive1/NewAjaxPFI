@@ -863,7 +863,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 700;
-  color: #c7c9ca;
+  color: #c7c9cabb;
 }
 .pricing-plan.pricing-plan-offer {
   margin-bottom: 24px;
