@@ -49,6 +49,12 @@
 	<!-- Progress Bar ZN -->
 	<link href="css/tox-progress.css" rel="stylesheet">
 
+	<script type="text/javascript">
+		document.addEventListener('DOMContentLoaded', function () {
+			ToxProgress.create();
+			ToxProgress.animate();
+		});
+	</script>
 
 
 	</head>
@@ -332,18 +338,52 @@
 				</div>
 			</div>		
 		</div>
-		<div class="row animate-box">
-			<div class="tox-progress" data-size="180" data-thickness="12" data-color="#229922" data-background="#ffffff" data-progress="25" data-speed="500">
-				<div class="tox-progress-content" data-vcenter="true">
-					45M transactions handled
-				</div>
-				<script type="text/javascript">
-					document.addEventListener('DOMContentLoaded', function () {
-						ToxProgress.create();
-						ToxProgress.animate();
-					});
-				</script>
+		<!--<div class="container">
+			<div class="col-md-4 animate-box">
+				<div class="tox-progress" data-size="180" data-thickness="12" data-color="#D7DB2D" data-background="#ffffff" data-progress="50" data-speed="250">
+					<div class="tox-progress-content" data-vcenter="true">
+						45M
+					</div>
+			</div>
+		</div>-->
+		<!--col-md-25 col-sm-50-->
+		<div class="col-md-3 animate-box">
+            <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#D7DB2D"
+                 data-background="#ffffff" data-progress="60" data-speed="250">
+                <div class="tox-progress-content" data-vcenter="true">
+                    <img height="90" style="margin:auto" src="images/hosting.png"/>
+                </div>
+            </div>
+            <p style="font-family:'Josefin Sans', sans-serif;font-size: 1.4em;" class="text-center margin-top-xs">43.6M Transactions Handled</p>
 		</div>
+		<div class="col-md-3 animate-box">
+            <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#D7DB2D"
+                 data-background="#ffffff" data-progress="60" data-speed="250">
+                <div class="tox-progress-content" data-vcenter="true">
+                    <img height="90" style="margin:auto" src="images/contract.png"/>
+                </div>
+            </div>
+            <p style="font-family:'Josefin Sans', sans-serif;font-size: 1.4em;" class="text-center margin-top-xs">1.9M Subscriptions Created</p>
+		</div>
+		<div class="col-md-3 animate-box">
+            <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#D7DB2D"
+                 data-background="#ffffff" data-progress="60" data-speed="250">
+                <div class="tox-progress-content" data-vcenter="true">
+                    <img height="90" style="margin:auto" src="images/contract.png"/>
+                </div>
+            </div>
+            <p style="font-family:'Josefin Sans', sans-serif;font-size: 1.4em;" class="text-center margin-top-xs">46.4M User interactions</p>
+		</div>
+		<div class="col-md-3 animate-box">
+            <div style="margin: auto" class="tox-progress" data-size="180" data-thickness="12" data-color="#D7DB2D"
+                 data-background="#ffffff" data-progress="60" data-speed="250">
+                <div class="tox-progress-content" data-vcenter="true">
+                    <img height="90" style="margin:auto" src="images/contract.png"/>
+                </div>
+            </div>
+            <p style="font-family:'Josefin Sans', sans-serif;font-size: 1.4em;" class="text-center margin-top-xs">176M Potential Revenue</p>
+		</div>
+	</br>
 	</div>
 
 	<!--<div id="fh5co-gallery">
