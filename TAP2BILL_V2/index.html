@@ -56,17 +56,6 @@
 		});
 	</script>
 
-	<script>
-	$(document).ready(function(){
-	  	$("#PSMS").click(function(){
-			$("#pricing").hide();
-	  	});
-	  	$("#DCB").click(function(){
-			$("#pricing").show();
-	  	});
-	});
-	</script>
-
 	</head>
 	<body>
 		
@@ -639,7 +628,16 @@
 	<!-- Progress Bar ZN -->
 	<script src="js/tox-progress.js"></script>
 
-
+	<script>
+		$(document).ready(function(){
+			  $("#PSMS").click(function(){
+				$("#pricing").hide();
+			  });
+			  $("#DCB").click(function(){
+				$("#pricing").show();
+			  });
+		});
+		</script>
 
 	</body>
 </html>
