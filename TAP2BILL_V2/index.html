@@ -56,6 +56,16 @@
 		});
 	</script>
 
+	<script>
+	$(document).ready(function(){
+	  	$("#PSMS").click(function(){
+			$("#pricing").hide();
+	  	});
+	  	$("#DCB").click(function(){
+			$("#pricing").show();
+	  	});
+	});
+	</script>
 
 	</head>
 	<body>
@@ -265,9 +275,9 @@
 				</div>
 				<div class='col-md-12 text-center'>
 					<div class="animate-box">
-						<button>DCB</button>
-						<button onclick="myFunction()">PSMS</button>
-						<button>API</button>
+						<button id="DCB">DCB</button>
+						<button id="PSMS">PSMS</button>
+						<button id="API">API</button>
 				</div>
 			</div>
 				<!--<div class="col-xs-1 animate-box"></div>-->
