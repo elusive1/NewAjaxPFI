@@ -1789,7 +1789,8 @@ button{
 }
 
 .logos img{
-  float: left;
+  /*float: left;*/
   width: 13.33%;
-  padding: 10px;
+  padding: 21px;
+  padding-left: 5px;
 }
