@@ -2,7 +2,8 @@
 
 document.getElementById("PSMS").onclick = function() { 
     
-    document.getElementById("dcb").style.display = "block";
+    document.getElementById("dcb").style.display = "none";
+    document.getElementById("psms").style.display = "block";
 } 
 /*
 document.getElementById("rounded").onclick = function() { 
