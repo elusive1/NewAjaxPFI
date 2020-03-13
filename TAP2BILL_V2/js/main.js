@@ -318,9 +318,7 @@
 		tabs();
 	});
 
-}());
-
-/* Adding in the scrolling feature */
+	/* Adding in the scrolling feature */
 // Reflect scrolling in navigation
 var navActive = function(section) {
 
@@ -354,3 +352,5 @@ var navigationSection = function() {
 	});
 
 };
+
+}());
