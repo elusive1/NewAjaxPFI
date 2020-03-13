@@ -54,11 +54,6 @@
 			ToxProgress.create();
 			ToxProgress.animate();
 		});
-
-		let servicesMenu = function() {
-		var section = document.getElementById("fh5co-header");
-		section.scrollIntoView({ behavior: 'smooth'});
-	};
 	</script>
 
 	</head>
@@ -92,7 +87,7 @@
 						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
 							<!--<li><a href="gallery.html">Gallery</a></li>-->
-							<li><a href="#" onclick="servicesMenu()">Services</a></li>
+							<li onclick="servicesMenu()"><a>Services</a></li>
 							<li class="has-dropdown">
 								<a href="#">Development</a>
 								<ul class="dropdown">
@@ -802,6 +797,13 @@
 	<script src="js/tox-progress.js"></script>
 	<!-- Div-Swap ZN -->
 	<script src="js/div-swapout.js"></script>
+
+	<script>
+		function servicesMenu() {
+		var section = document.getElementById("fh5co-header");
+		section.scrollIntoView({ behavior: 'smooth'});
+	};
+	</script>
 
 	<!--<script>
 		$(document).ready(function(){
