@@ -303,7 +303,12 @@
 		}); 
 	};
 
-	
+	/* ZN - adding scrolling */
+	("#li-services").click(function myFunction() {
+		var section = document.getElementById("fh5co-header");
+		section.scrollIntoView({ behavior: 'smooth'});
+	});
+
 	$(function(){
 		mobileMenuOutsideClick();
 		offcanvasMenu();
