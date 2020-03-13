@@ -304,10 +304,10 @@
 	};
 
 	/* ZN - adding scrolling */
-	("#li-services").click(function myFunction() {
+	function servicesMenu() {
 		var section = document.getElementById("fh5co-header");
 		section.scrollIntoView({ behavior: 'smooth'});
-	});
+	};
 
 	$(function(){
 		mobileMenuOutsideClick();
