@@ -54,6 +54,11 @@
 			ToxProgress.create();
 			ToxProgress.animate();
 		});
+
+		let servicesMenu = function() {
+		var section = document.getElementById("fh5co-header");
+		section.scrollIntoView({ behavior: 'smooth'});
+	};
 	</script>
 
 	</head>
@@ -87,7 +92,7 @@
 						<ul>
 							<li class="active"><a href="index.html">Home</a></li>
 							<!--<li><a href="gallery.html">Gallery</a></li>-->
-							<li onclick="servicesMenu()"><a href="#">Services</a></li>
+							<li><a href="#" onclick="servicesMenu()">Services</a></li>
 							<li class="has-dropdown">
 								<a href="#">Development</a>
 								<ul class="dropdown">
