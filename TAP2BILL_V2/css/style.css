@@ -1794,3 +1794,14 @@ button{
   padding: 32px;
   padding-left: 5px;
 }
+
+
+/* For the logos to change when in mobile view */
+@media screen and (max-width: 980px) {
+  .logos img{
+    /*float: left;*/
+    width: 20%;
+    padding: 32px;
+    padding-left: 5px;
+  }
+}
