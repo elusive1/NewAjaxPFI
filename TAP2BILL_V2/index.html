@@ -98,17 +98,11 @@
 								</ul>
 							</li>
 							<li><a href="https://tap2bill1.statuspage.io" target="_blank">Status</a></li>
-							<li class="has-dropdown">
-								<a href="#">About Us</a>
-								<ul class="dropdown">
-									<li><a href="#">Contact</a></li>
-								</ul>
-							</li>
+							<li class="mousepointer" onclick="AboutusMenu()"><a>About Us</a></li>
 							<li><a href="https://mobilepayments.imimobile.net/" target="_blank">Merchant Portal</a></li>
 						</ul>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</nav>
@@ -801,6 +795,10 @@
 	<script>
 		function servicesMenu() {
 		var section = document.getElementById("js-services");
+		section.scrollIntoView({ behavior: 'smooth', block: 'start'});
+	};
+	function AboutusMenu() {
+		var section = document.getElementById("fh5co-pricing");
 		section.scrollIntoView({ behavior: 'smooth', block: 'start'});
 	};
 	</script>
