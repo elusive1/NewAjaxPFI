@@ -1805,3 +1805,7 @@ button{
     padding-left: 5px;
   }
 }
+
+.mousepointer {
+  cursor:pointer;
+}
