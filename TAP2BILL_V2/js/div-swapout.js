@@ -39,6 +39,9 @@ function AboutusMenu() {
 function MoreDCB() {
     var section = document.getElementById("fh5co-schedule");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
+    document.getElementById("psms").style.display = "none";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("dcb").style.display = "block";
 };
 
 // For the More section on the PSMS section
