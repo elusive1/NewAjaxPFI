@@ -25,6 +25,7 @@ document.getElementById("API").onclick = function() {
 
 // For the services button on the menu
 function servicesMenu() {
+    window.location.replace("http://tap2bill.psgdemo.com");
     var section = document.getElementById("js-services");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
 };
@@ -37,6 +38,7 @@ function AboutusMenu() {
 
 // For the about-us section on the menu
 function Partners() {
+    window.location.replace("http://tap2bill.psgdemo.com");
     var section = document.getElementById("fh5co-testimonial");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
 };
