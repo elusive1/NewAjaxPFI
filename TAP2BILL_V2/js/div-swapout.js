@@ -49,3 +49,12 @@ function MorePSMS() {
     document.getElementById("api").style.display = "none";
     document.getElementById("psms").style.display = "block";
 };
+
+// For the More section on the API section
+function MoreAPI() {
+    var section = document.getElementById("fh5co-schedule");
+    section.scrollIntoView({ behavior: 'smooth', block: 'start'});
+    document.getElementById("psms").style.display = "none";
+    document.getElementById("dcb").style.display = "none";
+    document.getElementById("api").style.display = "block";  
+};
