@@ -40,3 +40,12 @@ function MoreDCB() {
     var section = document.getElementById("fh5co-schedule");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
 };
+
+// For the More section on the PSMS section
+function MorePSMS() {
+    var section = document.getElementById("fh5co-schedule");
+    section.scrollIntoView({ behavior: 'smooth', block: 'start'});
+    document.getElementById("dcb").style.display = "none";
+    document.getElementById("api").style.display = "none";
+    document.getElementById("psms").style.display = "block";
+};
