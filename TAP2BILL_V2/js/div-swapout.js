@@ -35,6 +35,12 @@ function AboutusMenu() {
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
 };
 
+// For the about-us section on the menu
+function Partners() {
+    var section = document.getElementById("fh5co-testimonial");
+    section.scrollIntoView({ behavior: 'smooth', block: 'start'});
+};
+
 // For the More section on the DCB section
 function MoreDCB() {
     var section = document.getElementById("fh5co-schedule");
