@@ -27,8 +27,7 @@ document.getElementById("API").onclick = function() {
 function servicesMenu() {
     window.location.replace("http://tap2bill.psgdemo.com");
     delay(3000);
-    var section = document.getElementById("js-services")
-    section.scrollIntoView({ behavior: 'smooth', block: 'start'});
+    document.getElementById("services-li").click()
 };
 
 // For the about-us section on the menu
