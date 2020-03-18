@@ -25,7 +25,7 @@ document.getElementById("API").onclick = function() {
 
 // For the services button on the menu
 function servicesMenu() {
-    window.location.href = "http://tap2bill.psgdemo.com"
+    window.location.href = "tap2bill.psgdemo.com"
     var section = document.getElementById("js-services")
     section.scrollIntoView({ behavior: 'smooth', block: 'start'})
 };
