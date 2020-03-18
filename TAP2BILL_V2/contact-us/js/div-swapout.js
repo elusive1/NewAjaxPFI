@@ -25,7 +25,7 @@ document.getElementById("API").onclick = function() {
 
 // For the services button on the menu
 function servicesMenu() {
-    window.location.replace("http://tap2bill.psgdemo.com");
+    window.location.replace("http://tap2bill.co.uk");
     document.getElementById("services-li").click();
 };
 
