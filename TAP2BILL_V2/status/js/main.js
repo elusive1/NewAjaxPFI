@@ -26,13 +26,13 @@
 	var mobileMenuOutsideClick = function() {
 
 		$(document).click(function (e) {
-	    var container = $("#fh5co-offcanvas, .js-fh5co-nav-toggle");
+	    var container = $("#t2b-offcanvas, .js-t2b-nav-toggle");
 	    if (!container.is(e.target) && container.has(e.target).length === 0) {
 
 	    	if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-fh5co-nav-toggle').removeClass('active');
+    			$('.js-t2b-nav-toggle').removeClass('active');
 				
 	    	}
 	    
@@ -45,15 +45,15 @@
 
 	var offcanvasMenu = function() {
 
-		$('#page').prepend('<div id="fh5co-offcanvas" />');
-		$('#page').prepend('<a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle fh5co-nav-white"><i></i></a>');
+		$('#page').prepend('<div id="t2b-offcanvas" />');
+		$('#page').prepend('<a href="#" class="js-t2b-nav-toggle t2b-nav-toggle t2b-nav-white"><i></i></a>');
 		var clone1 = $('.menu-1 > ul').clone();
-		$('#fh5co-offcanvas').append(clone1);
+		$('#t2b-offcanvas').append(clone1);
 		var clone2 = $('.menu-2 > ul').clone();
-		$('#fh5co-offcanvas').append(clone2);
+		$('#t2b-offcanvas').append(clone2);
 
-		$('#fh5co-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
-		$('#fh5co-offcanvas')
+		$('#t2b-offcanvas .has-dropdown').addClass('offcanvas-has-dropdown');
+		$('#t2b-offcanvas')
 			.find('li')
 			.removeClass('has-dropdown');
 
@@ -80,7 +80,7 @@
 			if ( $('body').hasClass('offcanvas') ) {
 
     			$('body').removeClass('offcanvas');
-    			$('.js-fh5co-nav-toggle').removeClass('active');
+    			$('.js-t2b-nav-toggle').removeClass('active');
 				
 	    	}
 		});
@@ -89,7 +89,7 @@
 
 	var burgerMenu = function() {
 
-		$('body').on('click', '.js-fh5co-nav-toggle', function(event){
+		$('body').on('click', '.js-t2b-nav-toggle', function(event){
 			var $this = $(this);
 
 
@@ -194,7 +194,7 @@
 
 	// Loading page
 	var loaderPage = function() {
-		$(".fh5co-loader").fadeOut("slow");
+		$(".t2b-loader").fadeOut("slow");
 	};
 
 	var counter = function() {
@@ -206,8 +206,8 @@
 	};
 
 	var counterWayPoint = function() {
-		if ($('#fh5co-counter').length > 0 ) {
-			$('#fh5co-counter').waypoint( function( direction ) {
+		if ($('#t2b-counter').length > 0 ) {
+			$('#t2b-counter').waypoint( function( direction ) {
 										
 				if( direction === 'down' && !$(this.element).hasClass('animated') ) {
 					setTimeout( counter , 400);					
@@ -247,21 +247,21 @@
 	var tabs = function() {
 
 		// Auto adjust height
-		$('.fh5co-tab-content-wrap').css('height', 0);
+		$('.t2b-tab-content-wrap').css('height', 0);
 		var autoHeight = function() {
 
 			setTimeout(function(){
 
-				var tabContentWrap = $('.fh5co-tab-content-wrap'),
-					tabHeight = $('.fh5co-tab-nav').outerHeight(),
+				var tabContentWrap = $('.t2b-tab-content-wrap'),
+					tabHeight = $('.t2b-tab-nav').outerHeight(),
 					formActiveHeight = $('.tab-content.active').outerHeight(),
 					totalHeight = parseInt(tabHeight + formActiveHeight + 90);
 
 					tabContentWrap.css('height', totalHeight );
 
 				$(window).resize(function(){
-					var tabContentWrap = $('.fh5co-tab-content-wrap'),
-						tabHeight = $('.fh5co-tab-nav').outerHeight(),
+					var tabContentWrap = $('.t2b-tab-content-wrap'),
+						tabHeight = $('.t2b-tab-nav').outerHeight(),
 						formActiveHeight = $('.tab-content.active').outerHeight(),
 						totalHeight = parseInt(tabHeight + formActiveHeight + 90);
 
@@ -276,7 +276,7 @@
 
 
 		// Click tab menu
-		$('.fh5co-tab-nav a').on('click', function(event){
+		$('.t2b-tab-nav a').on('click', function(event){
 			
 			var $this = $(this),
 				tab = $this.data('tab');
@@ -284,14 +284,14 @@
 			$('.tab-content')
 				.addClass('animated-fast fadeOutDown');
 
-			$('.fh5co-tab-nav li').removeClass('active');
+			$('.t2b-tab-nav li').removeClass('active');
 			
 			$this
 				.closest('li')
 					.addClass('active')
 
 			$this
-				.closest('.fh5co-tabs')
+				.closest('.t2b-tabs')
 					.find('.tab-content[data-tab-content="'+tab+'"]')
 					.removeClass('animated-fast fadeOutDown')
 					.addClass('animated-fast active fadeIn');

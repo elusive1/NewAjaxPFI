@@ -31,19 +31,19 @@ function servicesMenu() {
 
 // For the about-us section on the menu
 function AboutusMenu() {
-    var section = document.getElementById("fh5co-pricing");
+    var section = document.getElementById("t2b-pricing");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
 };
 
 // For the about-us section on the menu
 function Partners() {
-    var section = document.getElementById("fh5co-testimonial");
+    var section = document.getElementById("t2b-testimonial");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
 };
 
 // For the More section on the DCB section
 function MoreDCB() {
-    var section = document.getElementById("fh5co-schedule");
+    var section = document.getElementById("t2b-schedule");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
     document.getElementById("psms").style.display = "none";
     document.getElementById("api").style.display = "none";
@@ -52,7 +52,7 @@ function MoreDCB() {
 
 // For the More section on the PSMS section
 function MorePSMS() {
-    var section = document.getElementById("fh5co-schedule");
+    var section = document.getElementById("t2b-schedule");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
     document.getElementById("dcb").style.display = "none";
     document.getElementById("api").style.display = "none";
@@ -61,7 +61,7 @@ function MorePSMS() {
 
 // For the More section on the API section
 function MoreAPI() {
-    var section = document.getElementById("fh5co-schedule");
+    var section = document.getElementById("t2b-schedule");
     section.scrollIntoView({ behavior: 'smooth', block: 'start'});
     document.getElementById("psms").style.display = "none";
     document.getElementById("dcb").style.display = "none";
